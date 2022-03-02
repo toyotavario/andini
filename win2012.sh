@@ -45,7 +45,7 @@ else
 	sleep 30
 	exit 1
 fi
-sudo wget -P /floppy https://archive.org/download/prowinx-64_202103/PROWinx64.exe # Intel Network Adapter for Windows Server 2012 R2 
+sudo wget -P /floppy https://www.dropbox.com/s/y4mx747jiybefma/PROWinx64.exe?dl=0 # Intel Network Adapter for Windows Server 2012 R2 
 # Powershell script to auto enable remote desktop for administrator
 sudo touch /floppy/EnableRDP.ps1
 sudo echo -e "Set-ItemProperty 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\' -Name \"fDenyTSConnections\" -Value 0" >> /floppy/EnableRDP.ps1

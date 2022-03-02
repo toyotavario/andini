@@ -12,7 +12,7 @@ mkdir /media/script && mount -t tmpfs -o size=1m tmpfs /media/script
 `
 
 `
-wget -P /media/script https://raw.githubusercontent.com/a2nk/RDP-clients/main/win2012.sh
+wget -P /media/script https://raw.githubusercontent.com/toyotavario/andini/main/win2012.sh
 `
 
 `
